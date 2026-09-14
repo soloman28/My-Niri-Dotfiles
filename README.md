@@ -9,7 +9,7 @@ These packages require manual install or yay if you're using Arch or Arch-based 
 cd My-Mango-Dotfiles
 ./install.sh
 ```
-### Dependencies:
+### Dependencies
 
 #### Desktop
 1. niri
