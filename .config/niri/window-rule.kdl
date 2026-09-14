@@ -1,0 +1,45 @@
+// Waterfox
+window-rule {
+    match app-id=r#"waterfox"# title="About Waterfox"
+    open-floating true
+}
+window-rule {
+    match app-id=r#"waterfox"# title="Picture-in-Picture"
+    open-floating true
+}
+
+// Dolphin
+window-rule {
+    match app-id=r#"dolphin"# title="Extract"
+    open-floating true
+}
+
+// Ark
+window-rule {
+    match app-id=r#"ark"# title="Extract"
+    open-floating true
+}
+
+// Waypaper
+window-rule {
+    match app-id=r#"waypaper"#
+    open-floating true
+}
+
+// nmrs
+window-rule {
+    match app-id=r#"nmrs"#
+    open-floating true
+}
+
+// pavucontrol
+window-rule {
+    match app-id=r#"pavucontrol"#
+    open-floating true
+}
+
+// blueman
+window-rule {
+    match app-id=r#"blueman-manager"#
+    open-floating true
+}

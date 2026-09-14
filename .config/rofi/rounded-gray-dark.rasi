@@ -1,0 +1,15 @@
+/* ROUNDED THEME FOR ROFI */
+/* Author: Newman Sanchez (https://github.com/newmanls) */
+
+@theme "noctalia.rasi"
+
+* {
+    bg0:    @bg;
+    bg1:    @bg;
+    bg2:    @bg;
+    bg3:    @accent;
+    fg0:    @bg-alt;
+    fg1:    @bg-alt;
+    fg2:    @border;
+    fg3:    @border;
+}

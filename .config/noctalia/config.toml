@@ -1,0 +1,360 @@
+[backdrop]
+enabled = true
+tint_intensity = 0.0
+
+[bar]
+order = [ "my-bar" ]
+
+    [bar.my-bar]
+    border = "outline"
+    border_width = 1.0
+    capsule = false
+    capsule_border = "outline"
+    capsule_padding = 7.0
+    capsule_radius = 0
+    capsule_thickness = 0.69999998807907104
+    center = [ "group:g1" ]
+    concave_edge_corners = false
+    end = [ "battery", "spacer_2", "bluetooth", "spacer_2", "group:g2", "session" ]
+    hover_highlight = false
+    margin_ends = 0
+    padding = 12
+    radius = 0
+    shadow = false
+    start = [ "workspaces", "spacer_2", "active_window" ]
+    thickness = 40
+    widget_spacing = 6
+
+        [[bar.my-bar.capsule_group]]
+        accordion = true
+        accordion_direction = "start"
+        border = "surface"
+        enabled = true
+        fill = "surface"
+        id = "g1"
+        members = [ "clock", "music", "spacer_3", "media", "separator" ]
+        opacity = 0.0
+        padding = 0.0
+        radius = 0.0
+
+        [[bar.my-bar.capsule_group]]
+        accordion = true
+        accordion_direction = "end"
+        border = "surface"
+        enabled = true
+        fill = "surface"
+        id = "g2"
+        members = [
+            "left_arrow",
+            "network",
+            "separator",
+            "volume",
+            "separator",
+            "clipboard",
+            "separator",
+            "notifications",
+            "separator",
+            "tray"
+        ]
+        opacity = 0.0
+        padding = 0.0
+        radius = 0.0
+
+[brightness]
+enable_ddcutil = true
+sync_all_monitors = true
+
+[calendar]
+event_date_format = "%A %B %e"
+
+[control_center]
+show_session_button = false
+show_shortcut_labels = false
+sidebar_section = "none"
+
+    [control_center.calendar]
+    show_events_card = false
+
+[desktop_widgets]
+enabled = false
+
+[dock]
+enabled = false
+radius = 0
+shadow = false
+
+[idle]
+behavior_order = [ "lock", "screen-off", "lock-and-suspend" ]
+
+    [idle.behavior.lock]
+    action = "lock"
+    enabled = true
+    timeout = 600.0
+
+    [idle.behavior.lock-and-suspend]
+    action = "lock_and_suspend"
+    enabled = true
+    timeout = 900.0
+
+    [idle.behavior.screen-off]
+    action = "screen_off"
+    enabled = true
+    timeout = 660.0
+
+[location]
+auto_locate = true
+
+[lockscreen]
+blur_intensity = 0.0
+tint_intensity = 0.0
+
+[lockscreen_widgets]
+enabled = true
+schema_version = 2
+widget_order = [
+    "lockscreen-login-box@WL-1",
+    "lockscreen-login-box@HDMI-A-1",
+    "lockscreen-widget-0000000000000001",
+    "lockscreen-widget-0000000000000002"
+]
+
+    [lockscreen_widgets.grid]
+    cell_size = 16
+    major_interval = 4
+    visible = true
+
+    [lockscreen_widgets.widget."lockscreen-login-box@HDMI-A-1"]
+    box_height = 70.0
+    box_width = 256.0
+    cx = 910.5
+    cy = 672.0
+    output = "HDMI-A-1"
+    placement_height = 1024.0
+    placement_width = 1821.0
+    rotation = 0.0
+    type = "login_box"
+
+        [lockscreen_widgets.widget."lockscreen-login-box@HDMI-A-1".settings]
+        background_color = "surface_variant"
+        background_opacity = 0.0
+        background_radius = 12.0
+        center_password_text = true
+        input_opacity = 1.0
+        input_radius = 6.0
+        layout = "compact"
+        show_caps_lock = true
+        show_keyboard_layout = true
+        show_login_button = false
+        show_media = true
+        show_session_buttons = true
+        show_unlock_hint = false
+        show_weather = true
+
+    [lockscreen_widgets.widget."lockscreen-login-box@WL-1"]
+    box_height = 196.0
+    box_width = 810.0
+    cx = 451.0
+    cy = 302.0
+    output = "WL-1"
+    placement_height = 484.0
+    placement_width = 902.0
+    rotation = 0.0
+    type = "login_box"
+
+        [lockscreen_widgets.widget."lockscreen-login-box@WL-1".settings]
+        background_color = "surface_variant"
+        background_opacity = 0.88
+        background_radius = 12.0
+        center_password_text = false
+        input_opacity = 1.0
+        input_radius = 6.0
+        layout = "regular"
+        show_caps_lock = true
+        show_keyboard_layout = true
+        show_login_button = true
+        show_media = true
+        show_session_buttons = true
+        show_unlock_hint = true
+        show_weather = true
+
+    [lockscreen_widgets.widget.lockscreen-widget-0000000000000001]
+    box_height = 176.0
+    box_width = 400.0
+    cx = 910.5
+    cy = 336.0
+    output = "HDMI-A-1"
+    placement_height = 1024.0
+    placement_width = 1821.0
+    rotation = -0.0
+    type = "clock"
+
+        [lockscreen_widgets.widget.lockscreen-widget-0000000000000001.settings]
+        background = false
+        center_text = true
+        format = "{:%H:%M}"
+
+    [lockscreen_widgets.widget.lockscreen-widget-0000000000000002]
+    box_height = 0.0
+    box_width = 0.0
+    cx = 910.5
+    cy = 409.5
+    output = "HDMI-A-1"
+    placement_height = 1024.0
+    placement_width = 1821.0
+    rotation = 0.0
+    type = "label"
+
+        [lockscreen_widgets.widget.lockscreen-widget-0000000000000002.settings]
+        background = false
+        background_opacity = 1.0
+        shadow = true
+        title = "That's the most!"
+
+[notification]
+background_opacity = 0.99999997764825821
+offset_x = 4
+offset_y = 4
+
+[osd]
+background_opacity = 0.99999997764825821
+
+    [osd.kinds]
+    media = false
+
+[shell]
+avatar_path = "/home/soloman/Pictures/WallyChair_webp.jpg"
+corner_radius_scale = 0.0
+date_format = "%A, %m/%d/%Y"
+font_family = "JetBrainsMono Nerd Font Propo"
+polkit_agent = true
+popup_shadows = false
+
+    [shell.greeter_sync]
+    auto_sync = true
+
+    [shell.launcher]
+    categories = false
+    show_app_origin_indicator = false
+    show_icons = false
+    sort_by_usage = false
+
+        [shell.launcher.providers.emoji]
+        global = true
+
+        [shell.launcher.providers.session]
+        global = true
+
+        [shell.launcher.providers.wallpaper]
+        global = true
+
+        [shell.launcher.providers.windows]
+        global = false
+
+    [shell.panel]
+    clipboard_position = "auto"
+    control_center_placement = "floating"
+    floating_offset = 4
+    open_near_click_clipboard = true
+    open_near_click_control_center = true
+    session_placement = "floating"
+    session_position = "center"
+    shadow = false
+    wallpaper_placement = "floating"
+    wallpaper_position = "center"
+
+    [shell.screen_corners]
+    size = 1
+
+    [shell.screenshot]
+    confirm_region = true
+    directory = "/home/soloman/Pictures/Screenshots"
+    remember_last_region = true
+
+    [shell.session]
+    show_shortcuts = false
+
+    [shell.shadow]
+    direction = "center"
+
+[theme]
+builtin = "Noctalia"
+community_palette = "Everdeer"
+mode = "dark"
+source = "wallpaper"
+wallpaper_scheme = "m3-content"
+
+    [theme.templates]
+    builtin_ids = [ "btop", "cava", "gtk3", "gtk4", "kcolorscheme", "kitty", "niri", "qt" ]
+    community_ids = [ "pywalfox", "gimp", "inkscape", "libreoffice", "helix", "micro", "prismlauncher", "rofi", "fastfetch", "obs", "papirus-icons" ]
+
+[wallpaper]
+directory = "/home/soloman/Pictures/Wallpapers"
+edge_smoothness = 0.0
+transition_duration = 2000
+transition_on_startup = true
+
+    [wallpaper.default]
+    path = "/home/soloman/Pictures/Wallpapers/welcome-home-living-room.jpg"
+
+    [wallpaper.last]
+    path = "/home/soloman/Pictures/Wallpapers/welcome-home-living-room.jpg"
+
+    [wallpaper.monitors.HDMI-A-1]
+    path = "/home/soloman/Pictures/Wallpapers/welcome-home-living-room.jpg"
+
+[weather]
+enabled = false
+
+[widget.active_window]
+display = "text_only"
+
+[widget.clock]
+format = "{:%d %b %H:%M}"
+
+[widget.control-center]
+custom_image_colorize = true
+
+[widget.left_arrow]
+glyph = "chevron-left"
+type = "custom_button"
+
+[widget.media]
+artist_first = true
+hide_album_art = true
+title_scroll = "always"
+
+[widget.music]
+interactive = false
+text = ""
+type = "text"
+
+[widget.network]
+show_label = false
+
+[widget.separator]
+interactive = false
+text = "|"
+type = "text"
+
+[widget.spacer_2]
+length = 10
+type = "spacer"
+
+[widget.spacer_3]
+length = 8
+type = "spacer"
+
+[widget.tray]
+detached_panel = true
+drawer = false
+hidden = [ "Network" ]
+match_adjacent_spacing = true
+
+[widget.workspaces]
+active_pill_size = 1.0
+capsule_radius = "auto"
+empty_color = "outline"
+font_scale = 0.75
+occupied_color = "outline"
+scale = 1.25
+style = "minimal"

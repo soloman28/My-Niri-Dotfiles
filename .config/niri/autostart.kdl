@@ -1,0 +1,10 @@
+// Polkit
+spawn-sh-at-startup "/usr/lib/polkit-kde-authentication-agent-1"
+
+// General
+spawn-sh-at-startup "XDG_MENU_PREFIX=arch- kbuildsycoca6"
+spawn-at-startup "exec-once=kdeconnect-indicator"
+spawn-at-startup "otd-daemon"
+spawn-at-startup "bluetoothctl"
+spawn-at-startup "kdeconnect-indicator"
+spawn-at-startup "noctalia"

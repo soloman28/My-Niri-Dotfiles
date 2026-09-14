@@ -1,0 +1,21 @@
+{
+  "logo": {
+    "color": {
+      "1": "#ffb598",
+      "2": "#fdb699"
+    }
+  },
+  "display": {
+    "color": {
+      "keys": "#ffb598",
+      "title": "#fdb699"
+    },
+    "percent": {
+      "color": {
+        "green": "#d6c861",
+        "yellow": "#ffb598",
+        "red": "#ffb4ab"
+      }
+    }
+  }
+}
