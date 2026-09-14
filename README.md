@@ -1,4 +1,5 @@
 # My-Niri-Dotfiles
+<img width="1366" height="768" alt="screenshot_20260914_174915" src="https://github.com/user-attachments/assets/d9a511b2-92ec-4182-b161-b4650c2c73a4" />
 Here's my Niri dotfiles, now with Noctalia!
 
 ### Installation
@@ -34,9 +35,8 @@ cd My-Mango-Dotfiles
 4. qt5ct-kde
 5. qt6ct-kde
 6. archlinux-xdg-menu
-7. wlr-dpms
-8. xdg-desktop-portal-kde
-9. xdg-desktop-portal-gtk
-10. udev-block-notify
-11. bibata-cursor-theme
-12. ttf-jetbrains-mono-nerd
+7. xdg-desktop-portal-kde
+8. xdg-desktop-portal-gtk
+9. udev-block-notify
+10. bibata-cursor-theme
+11. ttf-jetbrains-mono-nerd
