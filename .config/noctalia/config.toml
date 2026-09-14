@@ -285,7 +285,7 @@ wallpaper_scheme = "m3-content"
 
     [theme.templates]
     builtin_ids = [ "btop", "cava", "gtk3", "gtk4", "kcolorscheme", "kitty", "niri", "qt" ]
-    community_ids = [ "pywalfox", "gimp", "inkscape", "libreoffice", "helix", "micro", "prismlauncher", "rofi", "fastfetch", "obs", "papirus-icons" ]
+    community_ids = [ "helix", "micro", "rofi", "fastfetch", "papirus-icons" ]
 
 [wallpaper]
 directory = "/home/soloman/Pictures/Wallpapers"
