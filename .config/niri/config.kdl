@@ -92,7 +92,7 @@ input {
 // Find more information on the wiki:
 // https://niri-wm.github.io/niri/Configuration:-Outputs
 // Remember to uncomment the node by removing "/-"!
-output "HDMI-A-1" {
+/-output "HDMI-A-1" {
     // Uncomment this line to disable this output.
     // off
 
@@ -105,7 +105,7 @@ output "HDMI-A-1" {
     mode "1366x768@59.790"
 
     // You can use integer or fractional scale, for example use 1.5 for 150% scale.
-    scale 0.75
+    scale 1
 
     // Transform allows to rotate the output counter-clockwise, valid values are:
     // normal, 90, 180, 270, flipped, flipped-90, flipped-180 and flipped-270.
