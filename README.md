@@ -9,7 +9,7 @@ These packages require manual install or yay if you're using Arch or Arch-based 
 cd My-Mango-Dotfiles
 ./install.sh
 ```
-### Dependencies
+### Dependencies:
 
 #### Desktop
 1. niri
@@ -32,11 +32,10 @@ cd My-Mango-Dotfiles
 1. cava
 2. zsh
 3. libadwaita
-4. qt5ct-kde
-5. qt6ct-kde
-6. archlinux-xdg-menu
-7. xdg-desktop-portal-kde
-8. xdg-desktop-portal-gtk
-9. udev-block-notify
-10. bibata-cursor-theme
-11. ttf-jetbrains-mono-nerd
+4. qtengine
+5. archlinux-xdg-menu
+6. xdg-desktop-portal-kde
+7. xdg-desktop-portal-gtk
+8. udev-block-notify
+9. bibata-cursor-theme
+10. ttf-jetbrains-mono-nerd
