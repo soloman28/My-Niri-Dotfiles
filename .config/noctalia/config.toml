@@ -284,7 +284,7 @@ source = "wallpaper"
 wallpaper_scheme = "m3-content"
 
     [theme.templates]
-    builtin_ids = [ "btop", "cava", "gtk3", "gtk4", "kcolorscheme", "kitty", "niri", "qt" ]
+    builtin_ids = [ "btop", "cava", "gtk3", "gtk4", "kcolorscheme", "kitty", "niri" ]
     community_ids = [ "helix", "micro", "rofi", "fastfetch", "papirus-icons" ]
 
 [wallpaper]

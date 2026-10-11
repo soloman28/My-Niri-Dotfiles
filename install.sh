@@ -30,7 +30,7 @@ case "$answer" in
         yay -S dolphin nomacs rofi imv calcure kitty helix fastfetch --noconfirm
 
         # other dependencies
-        yay -S cava zsh libadwaita qt5ct-kde qt6ct-kde archlinux-xdg-menu wlr-dpms xdg-desktop-portal-kde xdg-desktop-portal-gtk udev-block-notify bibata-cursor-theme ttf-jetbrains-mono-nerd --noconfirm
+        yay -S cava zsh libadwaita qtengine archlinux-xdg-menu wlr-dpms xdg-desktop-portal-kde xdg-desktop-portal-gtk udev-block-notify bibata-cursor-theme ttf-jetbrains-mono-nerd --noconfirm
         ;;
     ""|[Nn]|[Oo])
         clear
