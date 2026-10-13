@@ -1,6 +1,6 @@
 {
   "theme": {
-    "colorScheme": "/home/soloman/.local/share/color-schemes/noctalia.colors",
+    "colorScheme": "~/.local/share/color-schemes/noctalia.colors",
     "iconTheme": "Papirus-Dark",
     "style": "darkly",
     "font": {
