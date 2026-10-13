@@ -222,7 +222,7 @@ background_opacity = 0.99999997764825821
     media = false
 
 [shell]
-avatar_path = "/home/soloman/Pictures/WallyChair_webp.jpg"
+avatar_path = ""
 corner_radius_scale = 0.0
 date_format = "%A, %m/%d/%Y"
 font_family = "JetBrainsMono Nerd Font Propo"
@@ -267,7 +267,7 @@ popup_shadows = false
 
     [shell.screenshot]
     confirm_region = true
-    directory = "/home/soloman/Pictures/Screenshots"
+    directory = ""
     remember_last_region = true
 
     [shell.session]
@@ -288,19 +288,19 @@ wallpaper_scheme = "m3-content"
     community_ids = [ "helix", "micro", "rofi", "fastfetch", "papirus-icons" ]
 
 [wallpaper]
-directory = "/home/soloman/Pictures/Wallpapers"
+directory = "~/Pictures/Wallpapers"
 edge_smoothness = 0.0
 transition_duration = 2000
 transition_on_startup = true
 
     [wallpaper.default]
-    path = "/home/soloman/Pictures/Wallpapers/welcome-home-living-room.jpg"
+    path = ""
 
     [wallpaper.last]
-    path = "/home/soloman/Pictures/Wallpapers/welcome-home-living-room.jpg"
+    path = ""
 
     [wallpaper.monitors.HDMI-A-1]
-    path = "/home/soloman/Pictures/Wallpapers/welcome-home-living-room.jpg"
+    path = ""
 
 [weather]
 enabled = false
